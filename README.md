@@ -15,27 +15,27 @@ The objective of the team is to build a predictive model that will predict wheth
 
 ### Data Cleaning and Preparation 
 
-Marital Status: Fixing repetitive values (e.g. single and alone)
+**Marital Status:** Fixing repetitive values (e.g. single and alone)
 
-Income: Converting from string to float, imputing missing values based on educational mean, and dealing with outliers
+**Income:** Converting from string to float, imputing missing values based on educational mean, and dealing with outliers
 
-Dt_Customer: Converting to datetime
+**Dt_Customer:** Converting to datetime
 
-Year Birth: Fixing incorrect values (DOB<1900)
+**Year Birth:** Fixing incorrect values (DOB<1900)
 
-Other: Dropping 4 incorrect entries
+**Other:** Dropping 4 incorrect entries
 
 ### Feature Engineering
 
-Purchase Variables: Total spend, total number of orders, average order value, log transformations of spend variables (all were heavily skewed)
+**Purchase Variables:** Total spend, total number of orders, average order value, log transformations of spend variables (all were heavily skewed)
 
-Proportion Variables: Proportion of spend by category, proportion of gold product spend to total
+**Proportion Variables:** Proportion of spend by category, proportion of gold product spend to total
 
-Household Variables: # of kids, total # of people in the household, income divided by # in household
+**Household Variables:** # of kids, total # of people in the household, income divided by # in household
 
-Date/Time Variables: Average time between orders, customer tenure, age, spend to tenure ratio
+**Date/Time Variables:** Average time between orders, customer tenure, age, spend to tenure ratio
 
-Categorical Variables: Target encoding 
+**Categorical Variables:** Target encoding 
 
 ### Feature Selection
 
